@@ -8,3 +8,7 @@ const jsxb: JSX.Element = React.createElement('div', { tabIndex: 0 }, 1 + 1);
 //a equals b but instead of calling react create method using JSX
 
 // after render with react render or something idk
+
+//cast <> used for jsx element
+const someB = 'asd';
+const someA = someB as string; 
